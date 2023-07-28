@@ -1,14 +1,32 @@
 header{ 
+padding: 20px;
+letter-spacing: 2px;
+text-align: center;
 
+}
+Nav{
+padding: 10px 10px 10px 50px;
 
 }
 ul{ 
-
+text-align: center;
 
 }
 li{ 
 display: inline;
+font-size: 20px;
+margin-right: 100px;
+background-color: #fbfdce;
+padding: 5px 20px 5px 20px;
 
+}
+img{ 
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 50px;
+border-radius: 8px;
 
 }
 h1{ 
@@ -20,3 +38,77 @@ a:link{
 text-decoration: none;
 
 }
+a.hover{ 
+background-color: aquamarine;
+
+
+}
+iframe{ 
+
+
+}
+footer { 
+    
+    background-color: rgb(242, 247, 250);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #c3d8fe;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #95d2f8;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f7f3de;
+    padding: 20px;
+    width: 50%;
+    float: right;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 10%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: right;
+    width: 40%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
